@@ -1,0 +1,24 @@
+---
+title: "TestPage"
+author: "lin"
+date: "2020/9/9"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## test page
+ 
+ the Stata chunk in the test1.Rmd, will be extracted to _xx_test1.do. That is all!
+
+```{stata ,collectcode=T}
+sysuse auto
+```
+
+second chunk
+
+```{stata ,collectcode=T}
+sum
+```

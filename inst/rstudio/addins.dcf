@@ -1,0 +1,5 @@
+Name: Generate do File
+Description: extract stata code.
+Binding: extractStataCode
+Interactive: false
+
